@@ -112,5 +112,3 @@ for i in range(t):
         by = str(name[k]) + ':'
         print(by, len(tel[k]), *tel[k][::-1])
     print()
- 
- 
