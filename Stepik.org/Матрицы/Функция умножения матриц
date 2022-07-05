@@ -12,7 +12,7 @@ def mx_add(matrix1, matrix2):
     return mx3
     
 
-#Умножение квадратных матриц
+#Функция умножения квадратных матриц
 def mx_mult(matrix1, matrix2):
     n = len(matrix1)
     k = len(matrix2[0])
