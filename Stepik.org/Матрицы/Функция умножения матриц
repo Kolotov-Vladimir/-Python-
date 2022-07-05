@@ -1,0 +1,11 @@
+def mx_add(matrix1, matrix2):
+    n = len(matrix1)
+    k = len(matrix1[0])
+    mx3 = [[0] * k for i in range(n)]
+    if n != len(matrix2) or k != len(matrix2[0]):
+        print("Error: matrices have different dimensions!")
+        return
+    for i in range(n):
+        for j in range(k):
+                mx3[i][j] = mx1[i][j] + mx2[i][j]
+    return mx3
